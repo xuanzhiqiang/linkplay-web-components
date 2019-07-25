@@ -2,7 +2,6 @@
 
 ## 安装这些东西
 
-:    
     npm install --save-dev webpack
     npm install --save-dev webpack-cli
     npm install --save-dev webpack-dev-server
@@ -25,7 +24,7 @@
 ## 配置： 
 
 ### .babelrc
-:    
+
     {
         "presets": [
             "@babel/preset-env",
@@ -35,7 +34,6 @@
 
 
 ### webpack.config.js
-
 
     const path = require('path');
     const HtmlWebpackPlugin = require('html-webpack-plugin');
