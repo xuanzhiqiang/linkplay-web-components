@@ -5,9 +5,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: {
-        app: './src/index.js'
-    },
+    entry: [
+        'react-hot-loader/patch',
+        './src/index.js'
+    ],
     output: {
         publicPath: '/',
         filename: 'demo.js',
@@ -21,7 +22,17 @@ module.exports = {
     ],
     module: {
         rules: [
-            { test: /\.js$/, exclude: /node_modules/, use: { loader: "babel-loader" } },
+            {
+                test: /\.js$/,
+                loader: "babel-loader",
+                exclude: /node_modules/,
+                query: {
+                    presets: ["@babel/preset-env", "@babel/preset-react"],
+                    plugins: [
+                        ["@babel/plugin-proposal-class-properties", { loose: true }],
+                    ],
+                }
+            },
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
             { test: /\.(png|svg|jpg|gif)$/, use: ['file-loader'] }
         ]
