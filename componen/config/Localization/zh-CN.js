@@ -87,6 +87,9 @@ export default {
     AMAZON_APP_SELECT_PROJECT_NOTE: "请选择所属的工程：",
     AMAZON_APP_NAME: "应用名称",
     AMAZON_APP_ICON: "应用图标",
+    APP_NAME_TOOLONG: "App名称不能长于30个字符",
+    APP_NAME_HELPER:
+        "iOS、Android系统显示的应用名称，名称必须在AppStore与Google Play上唯一。请在AppStore与Google Play上搜索，确保应用名称是唯一的，以免影响您的应用发布日期。",
     AMAZON_APP_ICON_DESC: "大小为1024x1024，格式为png",
     AMAZON_APP_LAUNCHIMAGE: "启动图片",
     AMAZON_APP_LAUNCHIMAGE_1080P_DESC: "默认尺寸; 1242*2208",
@@ -214,6 +217,7 @@ export default {
     PROJECT_STATE_IN_DEVELOP: "研发",
     PROJECT_NEW_APP_DEVTYPE: "App需求",
     PROJECT_NEW_APP_BASIC_CUSTOM: "App定制",
+    PROJECT_NEW_APP_BASIC_MODIFY: "向已有app中添加设备",
     PROJECT_NEW_PROJECT_SUCCESS: "新项目 {0} 创建成功。",
     PROJECT_BACK_TO_LIST: "< 返回项目列表",
     PROJECT_SALES_GRETTING_NOTE: "您好 {0}, 下面的信息是 {1} 的立项请求信息，请检查，并在页面底部填写您的意见:",
@@ -249,4 +253,6 @@ export default {
     PROJECT_TITLE_PROJECT_ESTABLISH: "立项",
     PROJECT_PM_REVIEW_SUBMIT: "提交",
     PROJECT_NEW_FIRMWARE_TITLE: "新建固件UUID",
+    PROJECT_FILE_FORMAT_MISMATCH: "文件格式不匹配",
+    PROJECT_PRD_DOCUMENT_TEMPLATE_DOWNLOAD: "模版下载",
 };

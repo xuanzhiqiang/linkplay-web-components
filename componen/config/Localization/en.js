@@ -93,6 +93,9 @@ export default {
     AMAZON_APP_SELECT_PROJECT_NOTE: "Please choose which project belongs to:",
     AMAZON_APP_NAME: "App Name",
     AMAZON_APP_ICON: "App Icon",
+    APP_NAME_TOOLONG: "App name shouldn't long than 30 chars.",
+    APP_NAME_HELPER:
+        "The App name is the name of your App, as shown on iOS and Android home screens. For iOS, the name has to be unique and cannot be used by another App. Please search for the desired name in the App Store and make sure it is not currently being used. Otherwise your App publishing process will be delayed.",
     AMAZON_APP_ICON_DESC: "Size: 1024x1024 format: png",
     AMAZON_APP_LAUNCHIMAGE: "Launch Image",
     AMAZON_APP_LAUNCHIMAGE_1080P_DESC: "For normal phone; Size: 1242*2208",
@@ -225,6 +228,7 @@ export default {
     PROJECT_STATE_IN_DEVELOP: "In research",
     PROJECT_NEW_APP_DEVTYPE: "App Spec",
     PROJECT_NEW_APP_BASIC_CUSTOM: "App Customization",
+    PROJECT_NEW_APP_BASIC_MODIFY: "Add to Exist App",
     PROJECT_NEW_PROJECT_SUCCESS: "New project {0} success.",
     PROJECT_BACK_TO_LIST: "< Back to all Projects",
     PROJECT_SALES_GRETTING_NOTE:
@@ -263,4 +267,6 @@ export default {
     PROJECT_TITLE_PROJECT_ESTABLISH: "Pass",
     PROJECT_PM_REVIEW_SUBMIT: "Submit",
     PROJECT_NEW_FIRMWARE_TITLE: "New Firmware Request",
+    PROJECT_FILE_FORMAT_MISMATCH: "File format mismatch",
+    PROJECT_PRD_DOCUMENT_TEMPLATE_DOWNLOAD: "Template Download",
 };
