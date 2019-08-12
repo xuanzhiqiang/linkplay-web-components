@@ -1,7 +1,7 @@
 {
   "name": "linkplay-web-components",
   "main": "index.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "start": "webpack-dev-server --open --mode development -inline",
     "buildw": "webpack --mode production",
